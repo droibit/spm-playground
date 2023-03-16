@@ -1,0 +1,11 @@
+input_dir: Resources
+output_dir: ${DERIVED_SOURCES_DIR}
+
+ib:
+  inputs: .
+  filter: .+\.storyboard$
+  outputs:
+    - templateName: scenes-swift5
+      output: Storyboards Scenes.swift
+    - templateName: segues-swift5
+      output: Storyboards Segues.swift
