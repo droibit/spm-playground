@@ -20,6 +20,7 @@
 		439109664BF72A2C2623C1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7862CFC592512C560DFE9563 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC233C129BF663100609709 /* mockingbird-sample */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "mockingbird-sample"; path = ..; sourceTree = "<group>"; };
+		DAC233CC29C4975E00609709 /* MockingbirdSampleTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MockingbirdSampleTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +65,9 @@
 		C8BA80ADC29A1CA065B31CDB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0E6CE323BD81E62C570E4B7B /* Assets.xcassets */,
 				439109664BF72A2C2623C1FD /* Info.plist */,
+				0E6CE323BD81E62C570E4B7B /* Assets.xcassets */,
+				DAC233CC29C4975E00609709 /* MockingbirdSampleTests.xctestplan */,
 				F18B4AE8864FDEBD003E95EC /* Storyboards */,
 			);
 			path = Resources;

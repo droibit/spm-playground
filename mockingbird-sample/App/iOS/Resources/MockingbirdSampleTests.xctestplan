@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "E80B7F0E-9235-4C05-936F-2B52D4B34950",
+      "name" : "All Tests",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MockingbirdSample.xcodeproj",
+      "identifier" : "532867D74EA2D9B71F2ACA56",
+      "name" : "MockingbirdSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "CoreRepositoryTest",
+        "name" : "CoreRepositoryTest"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "FeaturesTests",
+        "name" : "FeaturesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
